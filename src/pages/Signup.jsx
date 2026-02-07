@@ -8,6 +8,7 @@ import toast from "react-hot-toast";
 import { LoaderCircle } from "lucide-react";
 import ProfilePhotoSelector from "../components/ProfilePhotoSelector.jsx";
 import uploadProfileImage from "../util/uploadProfileImage.js";
+import Input from "../components/Input.jsx"
 
 const Signup=()=>{
 
