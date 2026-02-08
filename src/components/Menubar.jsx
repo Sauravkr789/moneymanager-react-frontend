@@ -69,7 +69,7 @@ const Menubar = ({ activeMenu }) => {
 
         <button
           onClick={() => setShowDropDown(!showDropDown)}
-          className="flex items-center justify-center h-10 w-10 bg-gray-100 hover:bg-gray-200 rounded-full overflow-hidden transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-purple-800 focus:ring-offset-2"
+          className="flex items-center justify-center h-10 w-10 bg-gray-100 hover:bg-gray-200 rounded-full overflow-hidden transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-purple-800 focus:ring-offset-2 cursor-pointer"
         >
           {/* CHECK: If user has a profile picture, show it; otherwise show the icon */}
           {user?.profileImageUrl ? (
@@ -114,7 +114,7 @@ const Menubar = ({ activeMenu }) => {
             <div className="py-1">
               <button
                 onClick={handleLogout}
-                className="flex items-center gap-3 w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors duration-150"
+                className="flex items-center gap-3 w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors duration-150 cursor-pointer"
               >
                 <LogOut className="w-4 h-4 text-gray-500" />
                 <span>Logout</span>

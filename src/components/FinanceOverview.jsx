@@ -26,7 +26,10 @@ const FinanceOverview=({totalBalance, totalIncome, totalExpense})=>{
         showTextAnchor
       />
     </div>
+    
   );
+
+  
 }
 
 export default FinanceOverview;

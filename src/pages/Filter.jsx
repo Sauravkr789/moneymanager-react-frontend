@@ -25,6 +25,13 @@ const Filter=()=>{
   const handleSearch=async (e)=>
   {
     e.preventDefault();
+
+    if(!startDate)
+    {
+      toast.error("Please select the date.");
+      return;
+    }
+
     setLoading(true);
 
     try {
