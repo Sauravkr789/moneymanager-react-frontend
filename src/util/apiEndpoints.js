@@ -1,4 +1,4 @@
-export const BASE_URL = "https://moneymanager-app-tr7d.onrender.com";
+export const BASE_URL = "https://moneymanager-app-z8dt.onrender.com";
 // export const BASE_URL = "http://localhost:8080";
 const CLOUDINARY_CLOUD_NAME = 'dayemdzin';
 
